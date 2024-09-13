@@ -50,8 +50,8 @@ def get_coordinates(location_name):
 
 # Function to send an email
 def send_email(subject, body, to_email, attachment_path=None):
-    from_email = 'jaswanthjogi7815@gmail.com'  # Replace with your email
-    password = 'uiwzwztkowxcnncu'  # Replace with your email password
+    from_email = 'MAIL'  # Replace with your email
+    password = 'PASS'  # Replace with your email password
     
     msg = MIMEMultipart()
     msg['From'] = from_email
